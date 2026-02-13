@@ -12,3 +12,13 @@ grades = [85, 90, 78, 92, 88]
 פעם אחת עם extend
 יש להשתמש ב: copy, clear, extend
 """
+
+grades_copy = grades.copy()
+grades.clear()
+
+print(grades)
+print(grades_copy)
+
+grades_copy += [95, 100]
+grades_copy.extend([95, 100])
+print(grades_copy)
