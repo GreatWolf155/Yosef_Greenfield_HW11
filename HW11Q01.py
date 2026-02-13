@@ -17,3 +17,29 @@ numbers = [10, 20, 30, 20, 40, 50]
 יש להשתמש ב: count, index, append, insert, remove, pop, max, min, sum, len
 """
 
+print(numbers.count(20))
+
+print(numbers.index(30))
+
+numbers.append(99)
+
+numbers.insert(2, 15)
+
+numbers.remove(20)
+
+print(numbers[3])
+
+numbers.pop(3)
+
+print(max(numbers))
+
+print(min(numbers))
+
+print(sum(numbers))
+
+import statistics
+print(statistics.mean(numbers))
+
+print(len(numbers))
+
+print(numbers)
